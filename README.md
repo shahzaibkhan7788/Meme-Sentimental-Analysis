@@ -48,9 +48,12 @@ python multimodal_fusion.py
 - If running on GPU, remove `cpuonly` in `environment.yml` and add `pytorch-cuda` per CUDA version.
 
 ## Links (placeholders)
-- Dataset: `<paste-public-dataset-link-here>`
-- Images: `<paste-public-images-link-here>`
-- Feature pack: `<paste-precomputed-features-link-here>`
+- Dataset: 
+- Images:
+- Feature pack:
+- https://drive.google.com/drive/folders/1v3W4oQFixJ7Wh6Q6QzUzF0XoVUP-801P?usp=sharing
+- Used the above link to access embedding , all files, iamges, fusion mebdeding , each and everything
+- https://drive.google.com/file/d/1217VyJILJIsXG7eS_Hx1D5jxVT2DF1PE/view?usp=sharing   (config.yml file)`..this is any important file for running code ..used this file, it has already api
 
 ## Tips
 - Keep `Meme Number` filenames as `meme_<id>.jpg` etc. to match loaders.
