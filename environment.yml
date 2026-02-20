@@ -1,0 +1,25 @@
+name: memes-sentiment
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # remove this line and add `pytorch-cuda=11.8` if using NVIDIA GPU drivers
+  - scikit-learn
+  - pandas
+  - numpy
+  - tqdm
+  - pyyaml
+  - pillow
+  - matplotlib
+  - pip:
+      - transformers
+      - datasets
+      - azure-cognitiveservices-vision-computervision
+      - msrest
+      - python-dotenv
